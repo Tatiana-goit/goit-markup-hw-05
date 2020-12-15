@@ -640,6 +640,8 @@ img {
 .works-button-list-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .example-list {
@@ -698,8 +700,8 @@ img {
   transform: translateY(100%);
 }
 
-.example-list-item:hover .overlay,
-.example-list-item:focus .overlay {
+.example-list-link:hover .overlay,
+.example-list-link:focus .overlay {
   transform: translateY(0%);
 }
 
