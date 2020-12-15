@@ -614,11 +614,11 @@ img {
 }
 
 .backdrop.is-hidden {
-   transition: all 500ms linear 500ms;
+  transition: all 500ms linear 500ms;
 }
 
-.backdrop.is-hidden .modal{
-  transform: translate(-50%,-50%) scale(0);
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
   transition: transform 500ms linear 0ms;
 }
 
@@ -647,14 +647,13 @@ img {
   background-color: var(--white-color);
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
 }
 
 .button-icon {
-  fill: #000000;
   width: 11px;
   height: 11px;
+  fill: #000000;
 }
 
 .is-hidden {
@@ -694,7 +693,7 @@ img {
   color: var(--title-text-color);
   font-family: var(--main-font);
 
-  transition-property: background-color color;
+  transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
