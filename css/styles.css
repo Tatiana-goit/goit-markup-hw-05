@@ -123,6 +123,10 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-link.current::after {
@@ -173,6 +177,10 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-link:hover,
@@ -435,6 +443,19 @@ img {
   border-radius: 50%;
   background-color: var(--white-color);
   color: var(--white-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--social-link);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -447,11 +468,6 @@ img {
   fill: currentColor;
 }
 
-.social-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--social-link);
-}
 /*===============END OUR TEAM============*/
 
 /*===============CLIENTS============*/
@@ -485,6 +501,10 @@ img {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-link:hover,
@@ -499,6 +519,10 @@ img {
 
 .client-list-icon {
   fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*===============END CLIENTS============*/
@@ -561,6 +585,7 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
 }
+
 .footer-right-side .social-list-link {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -605,6 +630,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   font-family: var(--main-font);
+
+  transition-property: background-color color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-button-list-btn:hover,
